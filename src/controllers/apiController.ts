@@ -20,7 +20,7 @@ export const register = async (req: Request, res: Response) => {
         }
     }
 
-     res.json({ error: 'E-mail e/ou senha não enviados.' });
+    res.json({ error: 'E-mail e/ou senha não enviados.' });
 }
 
 export const login = async (req: Request, res: Response) => {
