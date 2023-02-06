@@ -31,14 +31,5 @@ export const Auth = {
             res.json({error: 'Não autorizado!'})
         }
 
-    },
-
-
-
-    public: () => {
-
-    },
-    liberado: () => {
-
     }
 }
